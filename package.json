@@ -1,0 +1,23 @@
+{
+  "name": "dasshboard-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dasshboard/dasshboard-server.git",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "debug": "nodemon --inspect index.js",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
